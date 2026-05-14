@@ -374,6 +374,7 @@ section {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
     border: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
 }
 
 .card:hover {
@@ -401,7 +402,11 @@ section {
 
 .subscribe h2 {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.subscribe p {
+    margin-bottom: 3rem;
 }
 
 .subscribe-form {
