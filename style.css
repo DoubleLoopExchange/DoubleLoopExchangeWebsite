@@ -343,6 +343,30 @@ section {
     margin-top: 4rem;
 }
 
+.specialties-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+.specialty-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.specialty-column h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card {
     background: var(--card-bg);
     padding: 2rem;
@@ -481,5 +505,10 @@ footer {
 
     .subscribe-form {
         flex-direction: column;
+    }
+
+    .specialties-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
     }
 }
